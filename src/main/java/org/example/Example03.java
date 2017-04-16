@@ -14,7 +14,7 @@ public class Example03 {
 		SlackletService slackService = new SlackletService(botToken);
 		slackService.start();
 
-		// チャンネルに対して、（返信ではなく）ダイレクトメッセージを送る
+		// チャンネルに対して、（返信ではなく）メッセージを送る
 		String channelName = "random";
 		slackService.sendMessageTo(channelName, "randomチャンネルの皆様、こんにちは！");
 
